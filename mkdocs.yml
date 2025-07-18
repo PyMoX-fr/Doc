@@ -29,6 +29,10 @@ theme:
 
 extra:
     edit: Modifier cette page
+extra_css:
+  - assets/styles/extra.css
+# use_directory_urls: false
+
 
 nav:
   - Accueil: README.md
