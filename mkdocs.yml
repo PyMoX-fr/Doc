@@ -1,0 +1,60 @@
+site_name: PyMoX.fr Doc
+docs_dir: pages
+site_description: Documentation officielle du projet PyMoX.fr
+site_author: La communauté PyMoX.fr & GrCOTE7
+repo_url: https://github.com/PyMoX-fr/Doc
+edit_uri: edit/main/doc
+
+theme:
+  name: material
+  # name: mkdocs
+  language: fr
+  icon:
+    alternate: fontawesome/solid/globe-europe
+  # favicon: /doc/documentation/assets/imgs/favicon.ico
+  favicon: /assets/imgs/favicon.ico
+  palette:
+    - scheme: default
+      primary: blue
+      accent: light blue
+  features:
+    - navigation.instant
+    - navigation.sections
+    - content.code.copy
+    - navigation.tabs
+    - search.highlight
+    - search.suggest
+    - toc.integrate
+    - content.action.edit
+
+extra:
+    edit: Modifier cette page
+
+nav:
+  - Accueil: README.md
+  - Prérequis: requested.md
+  - Installation: installation.md
+  - Guide utilisateur: user_guide.md
+  - Scripts: scripts.md
+  - Contribuer: contributing.md
+  - Plan de route: roadmap.md
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - toc:
+      permalink: true
+  - footnotes
+  - tables
+  - attr_list
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.tabbed
+
+plugins:
+  - search
+  - git-revision-date-localized
+  - minify:
+      minify_html: true
+      minify_js: false
+      minify_css: false
