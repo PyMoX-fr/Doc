@@ -1,0 +1,16 @@
+/* Réduction des emojis dans les titres */
+h1,
+h2,
+h3 {
+  font-size: 1.2em;
+}
+
+h1 span.emoji,
+h2 span.emoji {
+  font-size: 0.8em;
+}
+
+/* Amélioration de la lisibilité globale */
+body {
+  line-height: 1.6;
+}
