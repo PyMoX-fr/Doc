@@ -1,5 +1,5 @@
 site_name: PyMoX.fr Doc
-docs_dir: pages
+# docs_dir: pages
 site_description: Documentation officielle du projet PyMoX.fr
 site_author: La communauté PyMoX.fr & GrCOTE7
 repo_url: https://github.com/PyMoX-fr/Doc
