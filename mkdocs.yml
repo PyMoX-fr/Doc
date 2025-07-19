@@ -35,7 +35,7 @@ extra:
 
 
 nav:
-  - Accueil: index.html
+  - Accueil: README.md
   - Prérequis: requested.md
   - Installation: installation.md
   - Guide utilisateur: user_guide.md
