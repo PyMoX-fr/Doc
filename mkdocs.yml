@@ -1,5 +1,5 @@
 site_name: PyMoX.fr Doc
-# docs_dir: pages
+docs_dir: docs/pages
 site_description: Documentation officielle du projet PyMoX.fr
 site_author: La communauté PyMoX.fr & GrCOTE7
 repo_url: https://github.com/PyMoX-fr/Doc
@@ -29,13 +29,13 @@ theme:
 
 extra:
     edit: Modifier cette page
-extra_css:
-  - assets/stylesheets/extra.css
-use_directory_urls: false
+# extra_css:
+#   - assets/stylesheets/extra.css
+# use_directory_urls: false
 
 
 nav:
-  - Accueil: README.md
+  - Accueil: index.html
   - Prérequis: requested.md
   - Installation: installation.md
   - Guide utilisateur: user_guide.md
