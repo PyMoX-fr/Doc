@@ -6,8 +6,8 @@ repo_url: https://github.com/PyMoX-fr/Doc
 edit_uri: edit/main/doc
 
 theme:
-  name: material
-  # name: mkdocs
+  # name: material
+  name: mkdocs
   language: fr
   icon:
     alternate: fontawesome/solid/globe-europe
